@@ -57,7 +57,7 @@ main :: IO ()
 main = putStrLn "Test suite not yet implemented"
 
 {-# START_FILE src/Lib.hs #-}
-module Lib(
+module Lib (
     someFunc
     ) where
 
@@ -93,8 +93,8 @@ Copyright {{author-name}}{{^author-name}}Author name here{{/author-name}} (c) {{
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU Affero General Public License for more details.
 
-    You should have received a copy of the GNU General Public License
-    along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+    You should have received a copy of the GNU Affero General Public License
+    along with {{name}}.  If not, see <http://www.gnu.org/licenses/>.
 
 ### GNU AFFERO GENERAL PUBLIC LICENSE
 
