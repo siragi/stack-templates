@@ -2,7 +2,7 @@
 name:                {{name}}
 version:             0.1.0.0
 github:              "{{github-username}}{{^github-username}}githubuser{{/github-username}}/{{name}}"
-license:             {{license}}{{^license}}AGPL-3.0-only{{/license}}
+license:             {{license}}{{^license}}AGPL-3.0-or-later{{/license}}
 author:              "{{author-name}}{{^author-name}}Author name here{{/author-name}}"
 maintainer:          "{{author-email}}{{^author-email}}example@example.com{{/author-email}}"
 copyright:           "{{copyright}}{{^copyright}}{{year}}{{^year}}2021{{/year}} {{author-name}}{{^author-name}}Author name here{{/author-name}}{{/copyright}}"
@@ -84,17 +84,17 @@ main = someFunc
 Copyright {{author-name}}{{^author-name}}Author name here{{/author-name}} (c) {{year}}{{^year}}2021{{/year}}
 
 {{name}} is free software: you can redistribute it and/or modify
-    it under the terms of the GNU Affero General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-    {{name}} is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU Affero General Public License for more details.
+{{name}} is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
 
-    You should have received a copy of the GNU Affero General Public License
-    along with {{name}}.  If not, see <http://www.gnu.org/licenses/>.
+You should have received a copy of the GNU Affero General Public License
+along with {{name}}.  If not, see <http://www.gnu.org/licenses/>.
 
 ### GNU AFFERO GENERAL PUBLIC LICENSE
 
